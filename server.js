@@ -3,7 +3,7 @@ const http = require('http');
 const server = http.createServer((req, res) => {
   if (req.url === '/ping') {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Pong\n');
+    res.end('Pong xD\n');
   } else {
     res.writeHead(404, { 'Content-Type': 'text/plain' });
     res.end('Not found\n');
